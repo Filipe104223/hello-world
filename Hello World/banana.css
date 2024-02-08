@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff7f50; /* Cor de hover laranja */
+  }
+  
+  .search-box {
+    display: flex;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-box button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7f50; /* Laranja */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #ff6347; /* Laranja mais escuro no hover */
+  }
+  
+
+  .hello-world {
+    position: absolute;
+    left: 800px;
+  }
+
+  #texto {
+    position: absolute;
+    color:#fff ;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    max-width: 700px;
+    margin: 70px auto;
+    padding: 20px;
+    position: absolute;
+  }
+  
+  h2 {
+    text-align: right;
+    color: #fff;
+  }
+
+  #iniciar {
+    position: absolute;
+    margin: 400px;
+    width: 200px;
+    height: 100px;
+    border-bottom: #333;
+    border-radius: 40px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: aqua 10px;
+  }
+
+  button a{
+    color: #fff;
+    text-decoration: #fff;
+    font-size: 20px;
+  }
+
+  botton a:hover{
+    color: black;
+  }
+  
